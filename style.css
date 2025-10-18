@@ -1,0 +1,121 @@
+body {
+    font-family: sans-serif;
+    background-color: gray;
+    color: white;
+    margin: 0;
+}
+
+/* КАРТКИ ТОВАРІВ */
+.produkt_cart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 15px;
+    width: 80%;
+    gap: 20px;
+}
+
+.produkt_info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.produkt_cart img {
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.produkt_cart img:hover {
+    transform: scale(1.05);
+}
+
+.produkt_cart a {
+    text-decoration: none;
+    font-size: 20px;
+    border: 3px solid white;
+    background-color: royalblue;
+    padding: 10px 20px;
+    color: black;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.produkt_cart a:hover {
+    background-color: white;
+}
+
+/* ЗАГОЛОВКИ */
+.main-title {
+    background-color: gray;
+    color: white;
+    text-align: center;
+    font-size: 100px;
+}
+
+.section-title {
+    background-color: gray;
+    color: white;
+    text-align: center;
+    font-size: 80px;
+}
+
+/* КНОПКА ЗАМОВЛЕННЯ */
+.call {
+    font-size: 20px;
+    text-align: center;
+    position: fixed;
+    top: 60%;
+    left: 80%;
+    width: 15%;
+    padding: 2%;
+}
+
+/* МЕНЮ */
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 70px;
+    padding: 20px 0;
+}
+
+.nav-link {
+    font-weight: 500;
+    font-size: 32px;
+    text-decoration: none;
+    color: white;
+    padding: 0 40px;
+}
+
+.nav-link:hover {
+    color: black;
+    transition: 0.4s linear;
+}
+
+/* ЕФЕКТИ */
+.builder:hover {
+    transform: scale(1.1);
+    transition: 0.3s linear;
+}
+
+/* ПІДВАЛ */
+footer {
+    text-align: center;
+    padding: 30px;
+    background-color: #111;
+}
+
+footer p {
+    font-size: 18px;
+    color: white;
+}
+
+h1{
+    font-size: 50px;
+}
+
